@@ -5,7 +5,7 @@ metadata:
 
 spec:
   description: |
-    This pipeline clones a git repo, then echoes the README file to the stdout.
+    This pipeline clones a git repo, then tests a sample java application.
   params:
     - name: repo-url
       type: string
