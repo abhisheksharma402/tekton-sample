@@ -30,6 +30,7 @@ spec:
           value: $(params.repo-url)
 
     - name: build
+      runAfter: ["fetch-source"]
       taskRef:
         name: build
       workspaces:
